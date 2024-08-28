@@ -14,4 +14,5 @@ public class Atividade1 {
             System.out.println("Você tem 18 anos.");
         }
     }
+
 }
