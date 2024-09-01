@@ -17,11 +17,11 @@ public class Atividade10 {
         } else if (valor >= 100) {
             porc_desconto = 5;
             valor_desconto = valor * 0.05;
-        }  else if(valor < 100) {
+        } else if (valor < 100) {
             porc_desconto = 0;
             valor_desconto = 0;
         }
-        System.out.println("O valor da compra foi de R$"+valor+", foi aplicado "+porc_desconto+"% de desconto, sendo R$"+valor_desconto+" de desconto");
-        System.out.println("O valor final foi de R$"+(valor-valor_desconto));
+        System.out.println("O valor da compra foi de R$" + valor + ", foi aplicado " + porc_desconto + "% de desconto, sendo R$" + valor_desconto + " de desconto");
+        System.out.println("O valor final foi de R$" + (valor - valor_desconto));
     }
 }
