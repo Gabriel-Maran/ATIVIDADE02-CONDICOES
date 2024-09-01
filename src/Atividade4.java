@@ -12,7 +12,7 @@ public class Atividade4 {
         if(nome2.equals("nome") && senha2.equals("123")){
             System.out.println("O nome e a senha estão corretos");
         }else{
-            System.out.println("O nome ou a senha estão incorretos");
+            System.out.println("O nome ou/e a senha estão incorretos");
         }
 
     }
