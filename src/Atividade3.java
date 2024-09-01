@@ -6,11 +6,11 @@ public class Atividade3 {
         int num = 0;
         System.out.println("Informe um número que deseja saber se é par ou impar: ");
         num = sc.nextInt();
-        if(num%2==0 && num!=0){
+        if (num % 2 == 0 && num != 0) {
             System.out.println("Par");
-        }else if(num%2==1){
+        } else if (num % 2 == 1) {
             System.out.println("Impar");
-        }else{
+        } else {
             System.out.println("O número é zero");
         }
     }

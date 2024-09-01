@@ -9,9 +9,9 @@ public class Atividade4 {
         nome2 = sc.next();
         System.out.println("Informe a senha: ");
         senha2 = sc.next();
-        if(nome2.equals("nome") && senha2.equals("123")){
+        if (nome2.equals("nome") && senha2.equals("123")) {
             System.out.println("O nome e a senha estão corretos");
-        }else{
+        } else {
             System.out.println("O nome ou/e a senha estão incorretos");
         }
 
